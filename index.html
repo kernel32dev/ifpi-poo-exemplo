@@ -15,6 +15,9 @@
             /*background-color: rgb(170, 241, 241);*/
             text-align: center;
         }
+        a {
+            display: block;
+        }
 
         @media screen and (max-width: 700px) {
             main {
@@ -28,23 +31,24 @@
 <body>
 
     <main class="flex-container">
-        <div>
-            <div class="perfil1">
-                <img src="assets/img/marcos2.jpg" width="170px" height="170px" data-toggle="tooltip" title="Marcos Araújo Silva" alt="foto_marcos">
-            </div>
-            <a href="marcos.html">Marcos</a>
-        </div>
-        <div>
-            <div class="perfil1">
-                <img src="assets/img/germano.png" width="170px" height="170px" data-toggle="tooltip" title="Germano Barbosa" alt="foto_germano">
-            </div>
-            <a href="germano.html">Germano</a>
-        </div>
-
-        <div>
-            <div class="perfil1" style="background-color: #fcb900;"></div>
-            <a href="gabriel.html">Gabriel</a>
-        </div>
+            <a href="marcos.html">
+                <div class="perfil">
+                    <img src="assets/img/marcos2.jpg" width="170px" height="170px" data-toggle="tooltip"
+                        title="Marcos Araújo Silva" alt="foto_marcos">
+                </div>
+                Marcos
+            </a>
+            <a href="germano.html">
+                <div class="perfil">
+                    <img src="assets/img/germano.png" width="170px" height="170px" data-toggle="tooltip"
+                        title="Germano Barbosa" alt="foto_germano">
+                </div>
+                Germano
+            </a>
+            <a href="gabriel.html">
+                <div class="perfil" style="background-color: #fcb900;"></div>
+                Gabriel
+            </a>
     </main>
 
     <!-- 
