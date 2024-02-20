@@ -5,77 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            flex-grow: 0;
-            flex-shrink: 0;
-        }
-
-        body {
-            width: 100vw;
-            height: 100vh;
-            background: rgb(2,0,36);
-            background: linear-gradient(56deg, rgb(2,0,36) 0%, rgb(5, 71, 44) 22%, rgb(4, 68, 77) 71%, rgb(12, 0, 99) 100%);
-            color: white;
-            
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        menu {
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-            min-width: 70%;
-        }
-        menu a {
-            min-width: 70%;
-            padding: 5%;
-            background-color: #00000080;
-            color: white;
-            text-decoration: none;
-            font-size: xx-large;
-            transition: transform 100ms ease;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 1em;
-        }
-        menu a:hover {
-            transform: translateX(10px);
-        }
-        svg {
-            color: white;
-            fill: white;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
 
 <body>
-    <svg style="display: none" width="800px" height="800px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path id="identitycard" fill-rule="evenodd" d="M1.5 3A1.5 1.5 0 000 4.5v11A1.5 1.5 0 001.5 17h17a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0018.5 3h-17zm10.1 3a.8.8 0 000 1.6h5.6a.8.8 0 000-1.6h-5.6zm0 3.2a.8.8 0 000 1.6h5.6a.8.8 0 000-1.6h-5.6zm0 3.2a.8.8 0 000 1.6h4a.8.8 0 000-1.6h-4zM5.5 9.556c.966 0 1.75-.796 1.75-1.778S6.466 6 5.5 6s-1.75.796-1.75 1.778.784 1.778 1.75 1.778zM2 12.666C2 13.404 2.588 14 3.313 14h4.374C8.412 14 9 13.403 9 12.667c0-.737-.656-2.223-3.5-2.223S2 11.93 2 12.667z"/></svg>
-    <menu>
-        <a href="marcos.html">
-            <svg width="2em" height="2em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <use href="#identitycard"></use>
-            </svg>
-            Marcos
-        </a>
-        <a href="germano.html">
-            <svg width="2em" height="2em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <use href="#identitycard"></use>
-            </svg>
-            Germano
-        </a>
-        <a href="gabriel.html">
-            <svg width="2em" height="2em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <use href="#identitycard"></use>
-            </svg>
-            Gabriel
-        </a>
-    </menu>
+    
+    <main class="flex-container">
+        <div>
+            <div class="perfil1">
+                <img src="assets/img/marcos2.jpg" data-toggle="tooltip" title="Marcos Araújo Silva" alt="foto_marcos">
+            </div>
+            <a href="marcos.html">Marcos</a>
+        </div>
+        <div>
+            <div class="perfil2"></div>
+            <a href="germano.html">Germano</a>
+        </div>
+       
+        <div>
+            <div class="perfil3"></div>
+            <a href="gabriel.html">Gabriel</a>
+        </div>
+    </main>
+
+    <!-- 
+    <a href="marcos.html">Marcos</a><br>
+    <a href="germano.html">Germano</a><br>
+    <a href="gabriel.html">Gabriel</a> -->
 </body>
 
 </html>
