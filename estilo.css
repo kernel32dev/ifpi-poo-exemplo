@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #023744, #023744d5, #023744a2, #023744d5,#023744dc);
+    background-attachment: fixed;
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    /*background-color: rgb(170, 241, 241);*/
+    height: 90vh;
+    text-align: center;
+    
+
+}
+
+.perfil1{
+    /*background-color: #fcb900;*/
+    height: 160px;
+    width: 160px;
+    border-radius: 200px;
+    
+}
+
+.perfil2{
+    background-color: #fcb900;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+.perfil3{
+    background-color: #fcb900;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+
+a {
+    font-family: "Carattere", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    color: black;
+  }
+    
+  
+  div{
+    margin: 20px;
+  }
+
+  img{
+    height: 170px;
+    border-radius: 200px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+    cursor: pointer;
+    
+  }
